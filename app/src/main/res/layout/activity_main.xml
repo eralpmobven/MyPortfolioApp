@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/menu_title"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/spotify_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_spotify_streamer"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:id="@+id/scores_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_scores_app"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:id="@+id/library_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_library_app"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:id="@+id/build_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_build_it_bigger"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:id="@+id/xyz_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_xyz_reader"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"/>
+
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/menu_capstone"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/red"/>
+
+</LinearLayout>
